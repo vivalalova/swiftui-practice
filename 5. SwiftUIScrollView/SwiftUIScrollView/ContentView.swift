@@ -24,7 +24,7 @@ struct ContentView: View {
                 Spacer()
             }.padding([.top, .horizontal])
 
-            ScrollView(.horizontal) {
+            ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     CardView(image: "swiftui-button", category: "SwiftUI", heading: "kerker", author: "lova")
                         .frame(width: 300)
